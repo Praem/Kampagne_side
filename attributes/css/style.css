@@ -1,3 +1,9 @@
+@font-face {
+    font-family: Junction-bold; src: url('attributes/Junction-bold.otf');
+    font-family: Junction-light; src: url('attributes/Junction-light.otf');
+    font-family: Junction-regular; src: url('attributes/Junction-regular.otf');
+}
+
 body {
 
     background-color: #030100;
