@@ -1,37 +1,53 @@
 @charset "UTF-8";
 /* CSS Document */
 @font-face {
-    font-family: 'Junction-bold'; src: url('attributes/Junction-bold.otf');
-    font-family: 'Junction-light'; src: url('attributes/Junction-light.otf');
-    font-family: 'Junction-regular'; src: url('attributes/Junction-regular.otf');
+    font-family: "Junction-bold"; src: url('attributes/Junction-bold.otf');
+    font-family: "Junction-light"; src: url('attributes/Junction-light.otf');
+    font-family: "Junction-regular"; src: url('attributes/Junction-regular.otf');
 }
 
 body {
 
     background-color: #030100;
     font-family: "Junction-bold", sans-serif;
-}
+    }
 
 
-section {
-    color: #FFF;
+section.content {
     font-family: "Junction-bold", sans-serif;
     }
+
+p{
+    color: #FFF;
+    }
+
+ul.bullets {
+    list-style-type: disc:
+    color: #FFF;
+    }
+
+ul.bullets li::before {
+    content: "•";
+    color: #FFF;
+    }
+
+
 h1 {
     color: #FFF;
     position: relative;
-    font-size: 108px;
-    margin: 0 auto;
+    font-size:105px;
     text-align: center;
     font-family: "Junction-bold", sans-serif;
 
 }
 
 iframe {
-    width: 960px;
-    margin: 0 auto;
     position: relative;
+    width: 960px;
+    height: 540px;
     display: block;
+    margin: 0 auto;
+
 }
 
 nav {
@@ -89,6 +105,7 @@ div#content {
     padding: 20px;
  }
 }
+
 
 .content{
 
