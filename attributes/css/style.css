@@ -101,7 +101,11 @@ p{
 footer{
 background-color: #006779;
 padding: 1px;
+height: 150px;
 text-align: right;
+}
+#billider{
+  margin: auto;
 }
 h4{
   margin-right: 15px;
