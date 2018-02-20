@@ -41,6 +41,13 @@ h1 {
 
 }
 
+main{
+    width: 960px;
+    height: auto;
+    position: relative;
+    margin-bottom: 400px;
+}
+
 iframe {
     position: relative;
     width: 960px;
