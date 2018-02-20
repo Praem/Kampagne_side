@@ -1,20 +1,36 @@
 @charset "UTF-8";
 /* CSS Document */
 @font-face {
-    font-family: Junction-bold; src: url('attributes/Junction-bold.otf');
-    font-family: Junction-light; src: url('attributes/Junction-light.otf');
-    font-family: Junction-regular; src: url('attributes/Junction-regular.otf');
+    font-family: "Junction-bold"; src: url('attributes/Junction-bold.otf');
+    font-family: "Junction-light"; src: url('attributes/Junction-light.otf');
+    font-family: "Junction-regular"; src: url('attributes/Junction-regular.otf');
 }
 
 body {
 
     background-color: #030100;
+    font-family: "Junction-bold", sans-serif;
 }
 
 
 section {
     color: #FFF;
+    font-family: "Junction-bold", sans-serif;
     }
+h1 {
+    color: #FFF;
+    position: relative;
+    font-size:105px;
+    text-align: center;
+    font-family: "Junction-bold", sans-serif;
+
+}
+
+video {
+    position: relative;
+    left: 18%;
+
+}
 
 nav {
   background: #030100;
@@ -72,4 +88,10 @@ div#content {
  }
 }
 
->>>>>>> f00a3aa4c8008980ae7ba90809e1c47686bd9cdd
+.content{
+
+}
+
+p{
+  text-align: center;
+}
