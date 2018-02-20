@@ -100,7 +100,10 @@ p{
 /*footer*/
 footer{
 background-color: #006779;
-
-align-items: left;
-
+padding: 1px;
+text-align: right;
+}
+img{
+  position: relative;
+  left: -65%;
 }
