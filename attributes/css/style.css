@@ -1,3 +1,5 @@
+@charset "UTF-8";
+/* CSS Document */
 @font-face {
     font-family: Junction-bold; src: url('attributes/Junction-bold.otf');
     font-family: Junction-light; src: url('attributes/Junction-light.otf');
@@ -9,6 +11,65 @@ body {
     background-color: #030100;
 }
 
+<<<<<<< HEAD
 section {
     color: #FFF;
     }
+=======
+nav {
+  background: #030100;
+  overflow: auto;
+  padding: 80px;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+
+ul {
+  text-align: center;
+  float: right;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 5px 10px;
+  margin: 0 10px;
+  color: #eee;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: bold;
+  transition: all 200ms linear;
+}
+
+nav a:hover,
+nav#small a:hover {
+  color: #f08319;
+}
+
+nav#small {
+  background: #006779;
+  padding: 1px;
+  position: fixed;
+  box-sizing: border-box;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0px 2px 2px #fff;
+}
+
+div#content {
+  height: 1920px;
+}
+
+@media (max-width: 700px) {
+  nav {
+    padding: 20px;
+ }
+}
+	  
+>>>>>>> f00a3aa4c8008980ae7ba90809e1c47686bd9cdd
