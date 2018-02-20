@@ -103,6 +103,10 @@ background-color: #006779;
 padding: 1px;
 text-align: right;
 }
+h4{
+  margin-right: 15px;
+  font-size: 18px;
+}
 img{
   position: relative;
   left: -65%;
