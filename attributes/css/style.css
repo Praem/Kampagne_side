@@ -102,3 +102,28 @@ div#content {
     padding: 20px;
  }
 }
+<<<<<<< HEAD
+=======
+
+.content{
+
+}
+
+p{
+  text-align: center;
+}
+/*footer*/
+footer{
+background-color: #006779;
+padding: 1px;
+text-align: right;
+}
+h4{
+  margin-right: 15px;
+  font-size: 18px;
+}
+img{
+  position: relative;
+  left: -65%;
+}
+>>>>>>> 634fee327dde6f4f809e9e3f72a78596113d8ce2
