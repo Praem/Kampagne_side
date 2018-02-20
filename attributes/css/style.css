@@ -41,7 +41,7 @@ h1 {
 
 }
 
-video {
+iframe {
     position: relative;
     left: 18%;
 
@@ -102,8 +102,7 @@ div#content {
     padding: 20px;
  }
 }
-<<<<<<< HEAD
-=======
+
 
 .content{
 
@@ -126,4 +125,3 @@ img{
   position: relative;
   left: -65%;
 }
->>>>>>> 634fee327dde6f4f809e9e3f72a78596113d8ce2
