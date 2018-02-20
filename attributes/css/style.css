@@ -43,6 +43,10 @@ h1 {
 
 iframe {
     position: relative;
+    width: 960px;
+    height: 540px;
+    display: block;
+    margin: 0 auto;
 
 }
 
