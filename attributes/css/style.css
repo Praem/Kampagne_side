@@ -20,8 +20,9 @@ html, body{
     text-align: justify;
     width: 960px;
     position: relative;
-    padding-left: 15px;
+    padding-left: 5%;
     left: 50%;
+    color: #FFF;
     }
 
 p{
@@ -29,16 +30,6 @@ p{
     text-align: justify;
     }
 
-.bullets {
-    list-style-type: disc:
-    color: #FFF;
-    text-align: justify;
-    }
-
-li::before {
-    content: "•";
-    color: #FFF;
-    }
 
 
 h1 {
