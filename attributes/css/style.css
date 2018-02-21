@@ -1,6 +1,8 @@
-html{
+html, body{
   height: 100%;
-  box-sizing: inherit;
+  background-color: #030100;
+  font-family: "Junction-bold", sans-serif;
+  max-width: 100%;
 }
 @charset "UTF-8";
 /* CSS Document */
@@ -10,37 +12,23 @@ html{
     font-family: "Junction-regular"; src: url('attributes/Junction-regular.otf');
 }
 
-body {
 
-    background-color: #030100;
+
+
+section.content {
     font-family: "Junction-bold", sans-serif;
-    }
-
-/*section*/
-#content {
-    font-family: "Junction-bold", sans-serif;
-    text-align: justify;
-    width: 960px;
-    position: relative;
-    padding-left: 15px;
-    left: 50%;
-
-
     }
 
 p{
     color: #FFF;
-    text-align: justify;
     }
 
-.bullets{
-  color:White;
-  list-style-type: disc;
-  text-align: justify;
-}
+ul.bullets {
+    list-style-type: disc:
+    color: #FFF;
+    }
 
-
-li::before {
+ul.bullets li::before {
     content: "•";
     color: #FFF;
     }
@@ -57,9 +45,11 @@ h1 {
 
 
 main{
-    width: 900px;
+    width: 960  autopx;
     height: auto;
-
+    position: relative;
+    margin-bottom: 400px;
+    text-align: center;
 
 }
 
@@ -129,18 +119,25 @@ div#content {
 }
 
 
+.content{
 
+}
+
+p{
+  text-align: center;
+}
 /*footer*/
 footer{
 background-color: #006779;
 position: relative;
 width: 100%;
-height: 100%;
+height:auto;
 
 }
 .billider{
   position: relative;
   float: left;
+
 }
 h4{
   margin: 35px;
