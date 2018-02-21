@@ -124,9 +124,10 @@ div#content {
 /*footer*/
 footer{
 background-color: #006779;
-position: relative;
+clear:both;
+position: absolute;
 width: 100%;
-height:auto;
+height: auto;
 
 }
 .billider{
