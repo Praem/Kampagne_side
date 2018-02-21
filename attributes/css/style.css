@@ -15,20 +15,27 @@ html, body{
 
 
 
-section.content {
+#content {
     font-family: "Junction-bold", sans-serif;
+    text-align: justify;
+    width: 960px;
+    position: relative;
+    padding-left: 15px;
+    left: 50%;
     }
 
 p{
     color: #FFF;
+    text-align: justify;
     }
 
-ul.bullets {
+.bullets {
     list-style-type: disc:
     color: #FFF;
+    text-align: justify;
     }
 
-ul.bullets li::before {
+li::before {
     content: "•";
     color: #FFF;
     }
@@ -45,12 +52,8 @@ h1 {
 
 
 main{
-    width: 960  autopx;
+    width: 960;
     height: auto;
-    position: relative;
-    margin-bottom: 400px;
-    text-align: center;
-
 }
 
 iframe {
@@ -118,14 +121,6 @@ div#content {
  }
 }
 
-
-.content{
-
-}
-
-p{
-  text-align: center;
-}
 /*footer*/
 footer{
 background-color: #006779;
