@@ -12,21 +12,31 @@ body {
     font-family: "Junction-bold", sans-serif;
     }
 
-
-section.content {
+/*section*/
+#content {
     font-family: "Junction-bold", sans-serif;
+    text-align: justify;
+    width: 960px;
+    position: relative;
+    padding-left: 15px;
+    left: 50%;
+
+
     }
 
 p{
     color: #FFF;
+    text-align: justify;
     }
 
-ul.bullets {
-    list-style-type: disc:
-    color: #FFF;
-    }
+.bullets{
+  color:White;
+  list-style-type: disc;
+  text-align: justify;
+}
 
-ul.bullets li::before {
+
+li::before {
     content: "•";
     color: #FFF;
     }
@@ -42,11 +52,9 @@ h1 {
 }
 
 main{
-    width: 960px;
+    width: 900px;
     height: auto;
-    position: relative;
-    margin-bottom: 400px;
-    text-align: center;
+
 
 }
 
@@ -116,13 +124,7 @@ div#content {
 }
 
 
-.content{
 
-}
-
-p{
-  text-align: center;
-}
 /*footer*/
 footer{
 background-color: #006779;
